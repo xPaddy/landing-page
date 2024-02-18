@@ -155,6 +155,44 @@ div.quote-section {
 
 .author {
    font-weight: 800;
-   font-size: 22px;
+   font-size: 23px;
    text-align: right;
+}
+
+div.action-section {
+   display: flex;
+   justify-content: center;
+   padding: 100px 0;
+}
+
+.action-container {
+   width: 1200px;
+   background-color: #3882f6;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 50px 100px;
+   border-radius: 10px;
+}
+
+.action-header {
+   color: #f9faf8;
+   font-weight: 900;
+   font-size: 23px;
+}
+
+.action-text {
+   color: #e5e7eb;
+   font-size: 17px;
+}
+
+.sign-up {
+   background-color: #3882f6;
+   color: #f9faf8;
+   font-weight: 900;
+   font-size: 17px;
+   padding: 7px 25px;
+   border-radius: 7px;
+   border: 2px solid white;
+   margin-top: 10px;
 }
